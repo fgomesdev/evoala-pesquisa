@@ -6,7 +6,7 @@
     {
       "binding": "DB",
       "database_name": "evoala-pesquisa",
-      "database_id": "SUBSTITUA_PELO_ID_DO_BANCO",
+      "database_id": "88959979-427e-4a1d-b2de-b6739cc5fb0b",
       "migrations_dir": "migrations"
     }
   ]
