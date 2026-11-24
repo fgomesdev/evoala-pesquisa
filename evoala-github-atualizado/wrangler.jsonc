@@ -1,0 +1,13 @@
+{
+  "name": "evoala-pesquisa",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-11-24",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "evoala-pesquisa",
+      "database_id": "SUBSTITUA_PELO_ID_DO_BANCO",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

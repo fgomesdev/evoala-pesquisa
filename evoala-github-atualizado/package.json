@@ -1,0 +1,15 @@
+{
+  "name": "evoala-pesquisa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:local": "wrangler d1 migrations apply evoala-pesquisa --local",
+    "db:remote": "wrangler d1 migrations apply evoala-pesquisa --remote",
+    "sync": "node sync.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

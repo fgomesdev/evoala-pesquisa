@@ -1,0 +1,1 @@
+import fs from 'node:fs';const path='worker/index.mjs';const w=fs.readFileSync(path,'utf8');const rest=w.split(';const assets=')[1];fs.writeFileSync(path,'const html='+JSON.stringify(fs.readFileSync('public/index.html','utf8'))+';const assets='+rest);
